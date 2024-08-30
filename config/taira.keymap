@@ -53,21 +53,21 @@
 
         Mod3 {
             bindings = <
-&trans  &kp F1     &kp F2         &kp F3    &kp F4     &kp F5                                                        &kp F6         &kp F7         &kp F8        &kp F9         &kp F10        &kp F11
-&trans  &trans     &kp LS(UNDER)  &kp LBKT  &kp RBKT   &kp CARET                                                     &kp LS(EXCL)   &kp LT         &kp LS(GT)    &kp LS(EQUAL)  &kp LS(AMPS)   &kp F12
-&trans  &kp BSLH   &kp LS(FSLH)   &kp LBRC  &kp RBRC   &kp LS(STAR)                                                  &kp LS(QMARK)  &kp LS(LPAR)   &kp LS(RPAR)  &kp MINUS      &kp LS(COLON)  &kp AT
-&trans  &kp POUND  &kp LS(DLLR)   &kp PIPE  &kp TILDE  &kp GRAVE             &trans  &trans  &trans  &trans          &kp PLUS       &kp LS(PRCNT)  &kp LS(DQT)   &kp LS(SQT)    &kp LS(SEMI)   &trans
-&trans  &trans     &trans         &trans                             &trans  &trans  &trans  &trans  &trans  &trans                                &trans        &trans         &trans         &trans
+&trans  &kp F1     &kp F2      &kp F3    &kp F4     &kp F5                                                        &kp F6           &kp F7                &kp F8                 &kp F9     &kp F10        &kp F11
+&trans  &trans     &kp UNDER   &kp LBKT  &kp RBKT   &kp CARET                                                     &kp EXCLAMATION  &kp LT                &kp GREATER_THAN       &kp EQUAL  &kp AMPERSAND  &kp F12
+&trans  &kp BSLH   &kp FSLH    &kp LBRC  &kp RBRC   &kp ASTERISK                                                  &kp QUESTION     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp COLON      &kp AT
+&trans  &kp POUND  &kp DOLLAR  &kp PIPE  &kp TILDE  &kp GRAVE             &trans  &trans  &trans  &trans          &kp PLUS         &kp PERCENT           &kp DOUBLE_QUOTES      &kp APOS   &kp SEMICOLON  &trans
+&trans  &trans     &trans      &trans                             &trans  &trans  &trans  &trans  &trans  &trans                                         &trans                 &trans     &trans         &trans
             >;
         };
 
         Mod4 {
             bindings = <
-&trans  &trans     &trans    &trans    &trans     &trans                                                     &trans         &trans  &kp SLASH     &kp ASTERISK  &kp MINUS     &trans
-&trans  &kp PG_UP  &kp BSPC  &kp UP    &kp DEL    &kp PG_DN                                                  &trans         &kp N7  &kp N8        &kp N9        &kp PLUS      &trans
-&trans  &kp HOME   &kp LEFT  &kp DOWN  &kp RIGHT  &kp END                                                    &trans         &kp N4  &kp N5        &kp N6        &kp COMMA     &kp DOT
-&trans  &kp ESC    &kp TAB   &trans    &kp RET    &kp LC(Z)          &trans  &trans  &trans  &trans          &kp LS(COLON)  &kp N1  &kp N2        &kp N3        &kp LS(SEMI)  &trans
-&trans  &trans     &trans    &trans                          &trans  &trans  &trans  &trans  &trans  &trans                         &kp NUMBER_0  &trans        &trans        &trans
+&trans  &trans     &trans    &trans      &trans     &trans                                                     &trans     &trans  &kp SLASH     &kp ASTERISK  &kp MINUS      &trans
+&trans  &kp PG_UP  &kp BSPC  &kp UP      &kp DEL    &kp PG_DN                                                  &trans     &kp N7  &kp N8        &kp N9        &kp PLUS       &trans
+&trans  &kp HOME   &kp LEFT  &kp DOWN    &kp RIGHT  &kp END                                                    &trans     &kp N4  &kp N5        &kp N6        &kp COMMA      &kp DOT
+&trans  &kp ESC    &kp TAB   &kp INSERT  &kp RET    &kp LC(Z)          &trans  &trans  &trans  &trans          &kp COLON  &kp N1  &kp N2        &kp N3        &kp SEMICOLON  &trans
+&trans  &trans     &trans    &trans                            &trans  &trans  &trans  &trans  &trans  &trans                     &kp NUMBER_0  &trans        &trans         &trans
             >;
         };
     };
