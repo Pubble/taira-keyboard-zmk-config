@@ -8,11 +8,8 @@
 #include <dt-bindings/zmk/keys.h>
 
 #define DEFAULT 0
-#define LOWER   1
-#define RAISE   2
-#define ADJUST  3
-#define HYPER   4
-#define GAME    5
+#define Mod3    1
+#define Mod4    2
 
 / {
     conditional_layers { compatible = "zmk,conditional-layers"; };
