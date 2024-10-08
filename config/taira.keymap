@@ -53,11 +53,11 @@
 
         Mod3 {
             bindings = <
-&trans  &kp F1             &kp F2      &kp F3      &kp F4                 &kp F5                                                     &kp F6           &kp F7                &kp F8                 &kp F9     &kp F10        &kp F11
-&trans  &trans             &kp QMARK   &kp RA(N8)  &kp RA(N9)             &kp TILDE                                                  &kp EXCLAMATION  &kp LT                &kp GREATER_THAN       &kp EQUAL  &kp AMPERSAND  &kp F12
-&trans  &kp RA(MINUS)      &kp AMPS    &kp RA(N7)  &kp RA(N0)             &kp RBRC                                                   &kp QUESTION     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp COLON      &kp AT
-&trans  &kp DOUBLE_QUOTES  &kp LS(N4)  &kp PIPE    &kp RA(RIGHT_BRACKET)  &kp EQUAL          &trans  &trans  &trans  &trans          &kp PLUS         &kp PERCENT           &kp DOUBLE_QUOTES      &kp APOS   &kp SEMICOLON  &trans
-&trans  &trans             &trans      &trans                                        &trans  &trans  &trans  &trans  &trans  &trans                                         &trans                 &trans     &trans         &trans
+&trans  &kp F1         &kp F2      &kp F3      &kp F4                 &kp F5                                                     &kp F6             &kp F7         &kp F8            &kp F9       &kp F10           &kp F11
+&trans  &trans         &kp QMARK   &kp RA(N8)  &kp RA(N9)             &kp GRAVE                                                  &kp EXCLAMATION    &kp LESS_THAN  &kp GT            &kp LS(N0)   &kp LS(NUMBER_6)  &kp F12
+&trans  &kp RA(MINUS)  &kp AMPS    &kp RA(N7)  &kp RA(N0)             &kp RBRC                                                   &kp UNDER          &kp LPAR       &kp RPAR          &kp SLASH    &kp LS(PERIOD)    &kp RA(Q)
+&trans  &kp SQT        &kp LS(N4)  &kp PIPE2   &kp RA(RIGHT_BRACKET)  &kp EQUAL          &trans  &trans  &trans  &trans          &kp RIGHT_BRACKET  &kp LS(N5)     &kp LS(NUMBER_2)  &kp LS(SQT)  &kp LS(COMMA)     &trans
+&trans  &trans         &trans      &trans                                        &trans  &trans  &trans  &trans  &trans  &trans                                    &trans            &trans       &trans            &trans
             >;
         };
 
