@@ -56,7 +56,7 @@
 &trans  &kp F1         &kp F2            &kp F3      &kp F4                 &kp F5                                                     &kp F6             &kp F7      &kp F8            &kp F9        &kp F10           &kp F11
 &trans  &trans         &kp LS(QUESTION)  &kp RA(N8)  &kp RA(N9)             &kp GRAVE                                                  &kp EXCLAMATION    &kp PIPE    &kp PIPE2         &kp LS(N0)    &kp LS(NUMBER_6)  &kp F12
 &trans  &kp RA(MINUS)  &kp LS(N7)        &kp RA(N7)  &kp RA(N0)             &kp RBRC                                                   &kp UNDER          &kp LS(N8)  &kp LS(N9)        &kp QUESTION  &kp LS(PERIOD)    &kp RA(Q)
-&trans  &kp PIPE       &kp LS(N4)        &kp HASH    &kp RA(RIGHT_BRACKET)  &kp EQUAL          &trans  &trans  &trans  &trans          &kp RIGHT_BRACKET  &kp LS(N5)  &kp LS(NUMBER_2)  &kp LS(PIPE)  &kp LS(COMMA)     &trans
+&trans  &kp PIPE2      &kp LS(N4)        &kp PIPE    &kp RA(RIGHT_BRACKET)  &kp EQUAL          &trans  &trans  &trans  &trans          &kp RIGHT_BRACKET  &kp LS(N5)  &kp LS(NUMBER_2)  &kp LS(PIPE)  &kp LS(COMMA)     &trans
 &trans  &trans         &trans            &trans                                        &trans  &trans  &trans  &trans  &trans  &trans                                 &trans            &trans        &trans            &trans
             >;
         };
